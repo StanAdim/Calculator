@@ -1,0 +1,126 @@
+body{
+  padding:0;
+  margin:0;
+  overflow:hidden;
+  background:#050213;
+  color:white;
+}
+main{
+  width:100%;
+  height:100vh;
+  display:grid;
+}
+.outer{
+  width:50%;
+  margin:2% 25%;
+  padding:15px;
+  height: 90vh;
+  background:#0c0820;
+  box-shadow: 3px 0 25px white;
+  border-radius: 25px;
+  display: grid;
+  grid-gap: 1px;
+  grid-template-rows:1fr 2fr 8fr ;
+}
+.outer-1{
+      background: white;
+      padding:0;
+      margin-left:10%;
+      width:80%;
+      height: 150px;
+      border-radius: 30px;
+      box-sizing: border-box;
+      color:rgb(10, 8, 11);
+      display: block;
+      text-align: center;
+      border:1px solid black;
+}
+.display{
+  padding: 6px 0;
+  font-size: 40px;
+}
+.display-content{
+    margin-bottom:20px;
+}
+.outer-2{
+  background:#0d0313;
+  border-radius: 25px;
+  width: 78%;
+  padding:1px;
+  margin-top:10px;
+  margin-left:10%;
+  border-bottom: 1px solid whitesmoke;
+  border-top: 1px solid whitesmoke;
+  }
+  .operators{
+    display: grid;
+    width:97%;
+    grid-template-columns: 1fr  1fr 1fr  1fr  1fr  1fr ;
+    padding:10px;
+    margin-top:2%;
+  }
+  .add,.subtract,.multiply,.divide{
+    border:2px solid whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 32px;
+    margin-left: 3px;
+    cursor: pointer;
+    transition: .3s;
+  }
+
+  .add:hover ,.subtract:hover ,.multiply:hover ,
+  .divide:hover,.dot:hover,.zero:hover,.equal:hover{
+    border:3px solid rgb(16, 83, 163);
+    color:black;
+    background:white;
+    border-radius: 35px;
+    font-size: 34px;
+    cursor: pointer;
+  }
+  .outer-3{
+    background:rgba(5, 5, 42, 0.95);
+    border-radius: 25px;
+    width:95%;
+    box-shadow: 3px 0 35px #dfd6df;
+    margin:10px;
+  }
+  .number-inner{
+    padding:20px;
+  }
+  .numbers{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .num1,.on,.del,.num2,.num3,.num4,.num5,.num6,.num7,.num8,.num9,.dot,.zero,.equal{
+    border:2px solid whitesmoke;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 28px;
+    margin: 4px;
+    cursor: pointer;
+    transition: .3s;
+  }
+.dot,.zero,.equal{
+  background:#0d0313;
+}
+.num1:hover ,.on:hover ,.del:hover ,.num2:hover ,.num3:hover ,.num4:hover ,.num5:hover ,.num6:hover ,.num7:hover ,.num8:hover ,.num9:hover{
+transform:scale(.89);
+border:2px solid rgb(16, 83, 163);
+color:black;
+background:white;
+border-radius: 35px;
+font-size: 34px;
+cursor: pointer;
+}
+.operatBy{
+  color: #ff0008;
+  font-size: 26px;
+  font-weight: 900;
+}
+.operat1{
+  color: #174c99;
+}
+.operat2{
+  color: #125e32;
+}
